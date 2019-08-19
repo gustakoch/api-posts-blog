@@ -1,0 +1,5 @@
+::1 - - [19/Aug/2019:18:22:33 +0000] "POST /api/usuario/autenticar HTTP/1.1" 200 355 "-" "insomnia/6.6.2"
+::1 - - [19/Aug/2019:18:22:55 +0000] "GET /api/postagens HTTP/1.1" 200 1577 "-" "insomnia/6.6.2"
+::1 - - [19/Aug/2019:18:27:55 +0000] "GET /api/postagens HTTP/1.1" 200 1577 "-" "insomnia/6.6.2"
+::1 - - [19/Aug/2019:18:28:43 +0000] "GET /api/postagens HTTP/1.1" 200 1577
+::1 - - [19/Aug/2019:18:28:52 +0000] "GET /api/postagens HTTP/1.1" 200 1577

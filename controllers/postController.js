@@ -12,7 +12,7 @@ module.exports = {
       const data = await post.create(req.body);
       return res.json(data);
 
-    } catch (error) {
+    } catch(error) {
       res.json({
         message: 'Internal server error',
         error: '' + error
@@ -25,10 +25,10 @@ module.exports = {
       const data = await post.find();
       return res.json(data);
 
-    } catch(error) {
+    } catch(e) {
       res.json({
         message: 'Internal server error',
-        error: '' + error
+        error: ` ${e}`
       });
     }
   }
